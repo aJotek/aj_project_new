@@ -1,0 +1,29 @@
+h2{
+    margin: 20px 0px 0px 60px;
+    font-size:40px; 
+}
+
+h3{
+    margin:0px 0px 0px 90px;
+    color: antiquewhite
+}
+
+h4{
+    margin:0px 0px 0px 90px;
+    color: antiquewhite
+}
+
+img {
+    border-radius: 20px;
+    border: solid 2px #76B82A;
+    height: 300px;
+    margin: 20px 0px 0px 90px;
+}
+
+.row{
+    height: 300px;
+}
+
+.col{ 
+    min-width: 300px;
+}

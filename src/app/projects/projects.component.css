@@ -1,0 +1,29 @@
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    color: #76B82A;
+}
+
+.withimage{
+    background-image: url("/assets/img/hel.svg"),url("/assets/img/ginnungagaap.svg"),url("/assets/img/algiz.svg");
+    background-repeat: no-repeat, no-repeat,no-repeat;
+    background-position: left,right,center;
+    height: 70vh;
+}
+
+.row{
+    font-size: 20px;
+}
+
+h2{
+    margin: 20px 0px 0px 0px;
+}
+
+p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+}

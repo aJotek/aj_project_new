@@ -1,0 +1,29 @@
+
+.container {
+    height: 90vh;
+    width:100vw;
+ background-image: url("/assets/img/mindout.svg");
+ 
+ background-size: 800px;
+ background-repeat: no-repeat;
+ background-position-x: 10vw;
+ background-position-y: -20vh;
+}
+
+a{ 
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+a:hover{
+    color: #76B82A;
+}
+
+h2{
+    margin: 20px 0px 0px 0px;
+}
+
+p{
+    margin: 10px 0px 0px 30px;
+    font-size: 20px;
+}

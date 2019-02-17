@@ -1,0 +1,54 @@
+<mat-sidenav-container >
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" 
+                class="side">
+
+  <div class="container">
+        <div class="row d-none d-lg-none d-xl-block">
+        <a routerLink="/images"><i class="material-icons">collections &nbsp;</i></a>
+        <a routerLink="/images" id="nav">Gallery</a>
+    </div>
+  
+      <div class="row d-none d-lg-none d-xl-block">
+        <a routerLink="/bio" class="p3"><i class="material-icons">account_box &nbsp;</i></a>
+        <a routerLink="/bio" id="nav">About me</a>
+      </div>
+  
+      <div class="row d-none d-lg-none d-xl-block">
+        <a routerLink="/projects" class="p3"><i class="material-icons">assignment &nbsp;</i></a>
+        <a routerLink="/projects" id="nav">Projects</a>
+      </div>
+  
+      <div class="row d-none d-lg-none d-xl-block">
+        <a routerLink="/favs" class="p3"><i class="material-icons">thumb_up &nbsp;</i></a>
+        <a routerLink="/favs" id="nav">Favourites</a>
+      </div>
+  
+    </div>
+    <div class="container">
+        <div class="row d-block d-sm-block d-md-block d-lg-block d-xl-none">    
+          <a routerLink="/images"><i class="material-icons">collections &nbsp;</i></a>
+      </div>
+    
+        <div class="row d-sm-block d-md-block d-lg-block d-xl-none">
+          <a routerLink="/bio" class="p3"><i class="material-icons">account_box &nbsp;</i></a>
+        </div>
+    
+        <div class="row d-sm-block d-md-block d-lg-block d-xl-none">
+          <a routerLink="/projects" class="p3"><i class="material-icons">assignment &nbsp;</i></a>
+        </div>
+    
+        <div class="row d-sm-block d-md-block d-lg-block d-xl-none">
+          <a routerLink="/favs" class="p3"><i class="material-icons">thumb_up &nbsp;</i></a>
+        </div>
+    
+      </div>
+  
+
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content">
+  <button mat-button (click)="sidenav.toggle()" class="button"><img src="/assets/img/logo.png" class="logo"></button>
+  <router-outlet></router-outlet>
+ </mat-sidenav-content>
+
+</mat-sidenav-container>

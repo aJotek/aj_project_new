@@ -1,0 +1,51 @@
+h2{
+    margin: 20px 0px 0px 0px;
+}
+
+img{
+    height: 500px;
+    float: right;
+}
+
+p{
+    margin: 10px 0px 0px 30px;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.col-4{
+    height: 500px;
+    min-width:290px ;
+}
+
+ #f1_container {
+    position: relative;
+    margin: auto;
+    height: 500px;
+  
+  } 
+  /* #f1_container {
+    perspective: 1000;
+  } */
+
+  #f1_card {
+    height: 500px;
+    transform-style: preserve-3d;
+    transition: all 1.0s linear;
+  }
+
+  #f1_container:hover #f1_card {
+    transform: rotateY(180deg);
+  }
+
+  .face {
+    position: absolute;
+    height: 500px;
+    backface-visibility: hidden;
+  }
+  .face.back {
+    display: block;
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+ 
+  }
