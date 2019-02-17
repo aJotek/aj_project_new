@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+    color: antiquewhite;
+    font-family:'Josefin Sans', sans-serif;
+    background-color: #2D2D2D;
+
+}
+
+h2 {
+    color: #76B82A;
+    padding-left: 2vw;
+    font-size:40px; 
+}
+
+h5{
+    color: #76B82A;
+    font-size: 20px;
+
+}
