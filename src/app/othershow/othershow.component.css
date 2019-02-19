@@ -4,6 +4,7 @@ img{
     margin-right: auto;
     float: none;
     border-radius: 3%;
+    min-width:300px ;
 }
 
 ol.carousel-indicators {
