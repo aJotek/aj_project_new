@@ -22,12 +22,37 @@
         <a routerLink="/favs" id="nav">Favourites</a>
       </div>
 
+      
       <div class="row d-none d-lg-none d-xl-block" (click)="sidenav.toggle()">
         <a routerLink="" class="p3"><i class="material-icons">home &nbsp;</i></a>
         <a routerLink="" id="nav">Home</a>
       </div>
   
     </div>
+
+    <div class="container">
+      <div class="row d-block d-xl-none" (click)="sidenav.toggle()">
+      <a routerLink="/images"><i class="material-icons">collections &nbsp;</i></a>
+  </div>
+
+    <div class="row d-block d-xl-none" (click)="sidenav.toggle()">
+      <a routerLink="/bio" class="p3"><i class="material-icons">account_box &nbsp;</i></a>
+    </div>
+
+    <div class="row d-block d-xl-none" (click)="sidenav.toggle()">
+      <a routerLink="/projects" class="p3"><i class="material-icons">assignment &nbsp;</i></a>
+    </div>
+
+    <div class="row d-block d-xl-none" (click)="sidenav.toggle()">
+      <a routerLink="/favs" class="p3"><i class="material-icons">thumb_up &nbsp;</i></a>
+    </div>
+
+    
+    <div class="row d-block d-xl-none" (click)="sidenav.toggle()">
+      <a routerLink="" class="p3"><i class="material-icons">home &nbsp;</i></a>
+    </div>
+
+  </div>
 
   
 
