@@ -8,6 +8,9 @@ a:hover{
     color: #76B82A;
 }
 
+.comingsoon:hover{
+   color: #EF7D05;
+}
 .withimage{
     background-image: url("/assets/img/hel.svg"),url("/assets/img/ginnungagaap.svg"),url("/assets/img/algiz.svg");
     background-repeat: no-repeat, no-repeat,no-repeat;
@@ -25,5 +28,5 @@ h2{
 
 p{
     margin: 10px 0px 0px 30px;
-    font-size: 20px;
+    font-size: 30px;
 }
